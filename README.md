@@ -48,7 +48,7 @@ Dans le fichier `sqlite.py`, il faut modifier la variable `DOSSIER_BD` pour indi
 
 Exemple :
 
-```python
+
 DOSSIER_BD = r"C:\Users\Utilisateur\Documents\MesBasesDeDonnees"
 
 **Important :**
