@@ -44,21 +44,12 @@ pip install paho-mqtt influxdb3-python
 
 ## Configuration SQLite / SQL
 
-Dans le fichier `sqlite.py`, il faut modifier le chemin d'accès à la base de données.
-
-Rechercher la ligne qui ouvre la base de données :
-
-```python
-sqlite3.connect("BD_Figurines.db")
-```
-
-Remplacer le chemin par celui de votre propre fichier `.db`.
+Dans le fichier `sqlite.py`, il faut modifier la variable `DOSSIER_BD` pour indiquer le répertoire où se trouvent vos bases de données `.db`.
 
 Exemple :
 
 ```python
-sqlite3.connect(r"C:\Users\Utilisateur\Documents\BD_Figurines.db")
-```
+DOSSIER_BD = r"C:\Users\Utilisateur\Documents\MesBasesDeDonnees"
 
 **Important :**
 - Vérifier que le chemin du fichier est valide.
